@@ -1,4 +1,4 @@
-import Hello from "./components/hello";
+import Hello from "./components/Hello";
 
 // This is a server component
 export default function Home() {
