@@ -29,6 +29,28 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Steps to follow up
+- 1) Install Swiper
+```bash
+npm install swiper
+# or
+yarn add swiper
+```
+- 2) Create your Swiper component
+- 3) Use It in a Page
+## Do you have an error?
+- 1) Check Your package.json, make sure Swiper is installed.
+
+## swiper modifications
+- 1) Control the slider height using Tailwind.
+- 2) Make it responsive (so it looks good on all screen sizes).
+- 3) Slow down the autoplay so it doesn’t feel too fast.
+- 4) Ensure images fill the Swiper correctly using object-cover and size utilities.
+(Extra :Responsive captions or text on top of the slider?)
+
+
+
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
