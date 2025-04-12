@@ -1,4 +1,5 @@
 import Hello from "./components/Hello";
+import TopNavBar from "./components/TopNavBar";
 
 // This is a server component
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
   return (
 
     <>
-      <h1 className="text-3xl"> welcome to DACN. </h1>
+      <TopNavBar />
       <Hello />
     </>
 
