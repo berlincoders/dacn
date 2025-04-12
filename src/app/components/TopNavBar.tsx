@@ -12,7 +12,7 @@ export default function TopNavBar() {
 
         {/* Center Menu */}
         <nav className="hidden md:flex space-x-6 text-sm font-semibold tracking-wide">
-          <Link href="/home" className="hover:text-gray-400">Home</Link>
+          <Link href="/" className="hover:text-gray-400">Home</Link>
           <Link href="/schedule" className="hover:text-gray-400">Schedule</Link>
           <Link href="/sports" className="hover:text-gray-400">Sports</Link>
           <Link href="/originals" className="hover:text-gray-400">Originals</Link>

@@ -1,5 +1,5 @@
 import Hello from "./components/Hello";
-import TopNavBar from "./components/TopNavBar";
+
 
 // This is a server component
 export default function Home() {
@@ -8,7 +8,6 @@ export default function Home() {
   return (
 
     <>
-      <TopNavBar />
       <Hello />
     </>
 
