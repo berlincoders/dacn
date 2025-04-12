@@ -4,10 +4,10 @@ import Image from 'next/image';
 export default function TopNavBar() {
   return (
     <header className="w-full bg-black text-white px-6 py-4 shadow-md">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+      <div className="max-w-7xl mx-auto flex items-center justify-start space-x-4">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <Image src="/dacn-logo.svg" alt="DACN" width={80} height={40} />
+          <Image src="/dacn-logo.svg" alt="DACN" width={32} height={32} />
         </Link>
 
         {/* Center Menu */}
