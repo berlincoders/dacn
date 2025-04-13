@@ -46,7 +46,26 @@ yarn add swiper
 -  Make it responsive (so it looks good on all screen sizes).
 -  Slow down the autoplay so it doesn’t feel too fast.
 -  Ensure images fill the Swiper correctly using object-cover and size utilities.
-(Extra :Responsive captions or text on top of the slider?)
+-  Responsive captions or text on top of the slider
+```bash
+     <SwiperSlide>
+        <div className="relative w-full h-full">
+          <Image
+            src="/images/slide1.webp"
+            alt="Slide 1"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+            <h2 className="text-white text-xl sm:text-2xl md:text-4xl font-semibold text-center px-4">
+              Welcome to Our World 🌍
+            </h2>
+          </div>
+        </div>
+      </SwiperSlide>
+```
+
 
 
 
