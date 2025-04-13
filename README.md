@@ -65,8 +65,10 @@ yarn add swiper
         </div>
       </SwiperSlide>
 ```
-
-
+## "active link highlighting" effect
+- Use usePathname from next/navigation,This [hook](https://react.dev/reference/react/hooks) tells you what the current URL path is.
+- We loop through all your nav links and conditionally apply classes based on whether the current path matches
+-If it's active, we apply text-yellow-400 bg-gray-800,Otherwise, it stays white with a hover effect
 
 
 
