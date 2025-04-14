@@ -6,7 +6,7 @@ const sampleContent = [
     title: 'Bournemouth - Fulham',
     subtitle: 'Premier League',
     label: 'LIVE',
-    image: '/images/match1.jpg',
+    image: '/images/match1.webp',
     href: '#',
   },
   {
