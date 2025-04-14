@@ -1,6 +1,7 @@
 // src/app/schedule/page.tsx
 import React from 'react';
-import SportsFilter from '@components/SportFilter';  // Use @components alias
+import SportsFilter from '../components/SportFilter';
+
 
 const Schedule = () => {
   return (

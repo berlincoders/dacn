@@ -1,5 +1,6 @@
 import Hello from "./components/Hello";
 import ImageSlider from './components/ImageSlider';
+import ContentSlider from './components/ContentSlider';
 
 
 // This is a server component
@@ -10,6 +11,7 @@ export default function Home() {
 
     <>
       <ImageSlider />
+      <ContentSlider />
       <Hello />
     </>
 
